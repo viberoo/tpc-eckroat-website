@@ -89,7 +89,7 @@ export default function Home() {
                 <span className="proof-label">Pool work</span>
               </div>
               <div className="px-4 py-4 sm:px-6">
-                <span className="proof-value">60 mi</span>
+                <span className="proof-value">200 mi</span>
                 <span className="proof-label">Service area</span>
               </div>
             </div>

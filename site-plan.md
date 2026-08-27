@@ -6,7 +6,7 @@
 | --- | --- |
 | Business name | TPC Eckroat |
 | Service categories | Turf and putting greens, custom pools, construction, concrete, retaining walls, pergolas, pool houses, outdoor kitchens, and outdoor living |
-| Primary market | Edmond, Oklahoma City, Stillwater, and communities within approximately 60 miles of Edmond |
+| Primary market | Edmond, Oklahoma City, Stillwater, and communities within approximately 200 miles of Edmond |
 | Address | 4260 N Boulevard, Suite 128, Edmond, OK 73034 |
 | Phone | (405) 509-1988 |
 | Telephone URI | `tel:+14055091988` |
@@ -30,7 +30,7 @@
 
 The home page opens with a direct value proposition: **“One vision. Every part of the backyard.”** The hero explains that TPC Eckroat coordinates turf, pools, concrete, structures, and complete outdoor environments across the Edmond and Oklahoma City area. Primary and secondary calls to action lead to the contact page and the click-to-call telephone URI.
 
-The service overview follows the logo’s order—**Turf, Pools, Construction**—and links to focused pages. A proof section communicates construction experience since 2007, pool experience since 2017, and service across a roughly 60-mile radius without inventing customer metrics or testimonials. The page closes with a practical project-planning call to action.
+The service overview follows the logo’s order—**Turf, Pools, Construction**—and links to focused pages. A proof section communicates construction experience since 2007, pool experience since 2017, and service across a roughly 200-mile radius without inventing customer metrics or testimonials. The page closes with a practical project-planning call to action.
 
 ## SEO Implementation
 

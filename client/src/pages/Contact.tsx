@@ -85,7 +85,7 @@ export default function Contact() {
               <p className="font-display text-2xl font-semibold uppercase">Service area</p>
               <p className="mt-3 leading-7 text-white/72">
                 Based in Edmond and serving the Oklahoma City metro, Stillwater, and communities
-                within approximately 60 miles.
+                within approximately 200 miles.
               </p>
             </div>
           </aside>
