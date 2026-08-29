@@ -6,7 +6,7 @@ import { ArrowUpRight, Mail, MapPin, Menu, Phone, X } from "lucide-react";
 import { type ReactNode, useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
 
-const logo = "/manus-storage/tpceckroatlogo_f87e3aca.png";
+const logo = "/manus-storage/tpc-eckroat-logo-redesign_bc9f28c9.svg";
 
 const navigation = [
   { href: "/turf", label: "Turf" },
@@ -61,7 +61,7 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
             <img
               src={logo}
               alt="TPC Eckroat — Turf, Pools, Construction"
-              className="h-auto w-[152px] object-contain sm:w-[178px] lg:w-[212px]"
+              className="brand-logo-light h-[64px] w-auto object-contain sm:h-[72px] lg:h-[86px]"
             />
           </Link>
 
@@ -134,7 +134,7 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
             <img
               src={logo}
               alt="TPC Eckroat"
-              className="mb-6 w-[210px] brightness-0 invert"
+              className="mb-6 w-[240px] max-w-full"
             />
             <p className="max-w-md text-[0.95rem] leading-7 text-white/70">
               Coordinated turf, pools, concrete, structures, and complete outdoor environments for

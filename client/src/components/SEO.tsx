@@ -59,8 +59,8 @@ export default function SEO({ title, description, path, image = defaultImage }: 
       "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
       name: "TPC Eckroat",
       url: siteUrl,
-      image: `${siteUrl}/manus-storage/tpceckroatlogo_f87e3aca.png`,
-      logo: `${siteUrl}/manus-storage/tpceckroatlogo_f87e3aca.png`,
+      image: `${siteUrl}/manus-storage/tpc-eckroat-logo-redesign_bc9f28c9.svg`,
+      logo: `${siteUrl}/manus-storage/tpc-eckroat-logo-redesign_bc9f28c9.svg`,
       email: "info@tpceckroat.com",
       telephone: "+1-405-509-1988",
       address: {

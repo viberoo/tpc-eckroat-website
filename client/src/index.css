@@ -208,6 +208,14 @@
     @apply relative py-3 text-xs font-extrabold uppercase tracking-[0.14em] text-[#27463d];
   }
 
+  .brand-logo-light {
+    filter:
+      drop-shadow(1px 0 0 rgba(16, 43, 35, 0.72))
+      drop-shadow(-1px 0 0 rgba(16, 43, 35, 0.72))
+      drop-shadow(0 1px 0 rgba(16, 43, 35, 0.72))
+      drop-shadow(0 -1px 0 rgba(16, 43, 35, 0.72));
+  }
+
   .nav-link::after {
     content: "";
     position: absolute;
