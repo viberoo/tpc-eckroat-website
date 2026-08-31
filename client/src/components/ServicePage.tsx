@@ -15,6 +15,7 @@ export type ServicePageData = {
   headline: string;
   intro: string;
   image: string;
+  video?: string;
   imageAlt: string;
   highlights: string[];
   services: Array<{ title: string; description: string }>;
@@ -53,7 +54,24 @@ export default function ServicePage({ data }: { data: ServicePageData }) {
             </div>
           </div>
           <div className="relative min-h-[23rem] overflow-hidden lg:my-12 lg:min-h-[34rem]">
-            <img src={data.image} alt={data.imageAlt} className="absolute inset-0 h-full w-full object-cover" />
+            <img
+              src={data.image}
+              alt={data.imageAlt}
+              className="service-hero-still absolute inset-0 h-full w-full object-cover"
+            />
+            {data.video && (
+              <video
+                className="service-hero-video absolute inset-0 h-full w-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                aria-hidden="true"
+              >
+                <source src={data.video} type="video/mp4" />
+              </video>
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-[#102b23]/55 via-transparent to-transparent" />
             <div className="material-mark" aria-hidden="true" />
             <div className="absolute bottom-0 left-0 bg-[#f2bd3b] px-5 py-3 text-xs font-extrabold uppercase tracking-[0.16em] text-[#102b23] lg:left-16">
