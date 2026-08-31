@@ -9,6 +9,7 @@ import { Link, useLocation } from "wouter";
 const logo = "/assets/tpc-eckroat/logo.svg";
 
 const navigation = [
+  { href: "/", label: "Home" },
   { href: "/turf", label: "Turf" },
   { href: "/pools", label: "Pools" },
   { href: "/construction", label: "Construction" },
