@@ -15,17 +15,12 @@ export default function Contact() {
       />
 
       <section className="bg-[#102b23] py-16 text-white lg:py-24">
-        <div className="container grid gap-10 lg:grid-cols-[1.12fr_0.88fr] lg:items-end">
-          <div>
-            <p className="eyebrow text-[#f2bd3b]">Contact TPC Eckroat</p>
-            <h1 className="mt-5 max-w-4xl font-display text-6xl font-semibold uppercase leading-[0.9] tracking-[-0.035em] sm:text-7xl lg:text-8xl">
-              Start with the property. Build from there.
-            </h1>
-          </div>
-          <p className="max-w-xl border-l-2 border-[#1976ae] pl-6 text-lg leading-8 text-white/72">
+        <div className="container">
+          <p className="eyebrow text-[#f2bd3b]">Contact TPC Eckroat</p>
+          <h1 className="mt-5 max-w-5xl font-display text-4xl font-semibold uppercase leading-[0.98] tracking-[-0.025em] text-white sm:text-5xl lg:text-6xl">
             Call, email, or stop by the Edmond office to start the conversation. TPC Eckroat will help
             identify the right next step for the property.
-          </p>
+          </h1>
         </div>
       </section>
 
