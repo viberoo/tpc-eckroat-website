@@ -14,7 +14,7 @@ const data: ServicePageData = {
   headline: "Outdoor structures built to belong there.",
   intro:
     "With construction experience dating to 2007, TPC Eckroat builds the concrete, walls, shade structures, kitchens, and enclosed spaces that turn a yard into a complete place to live.",
-  image: "/assets/tpc-eckroat/construction.jpg",
+  image: "/assets/tpc-eckroat/construction.webp",
   imageAlt: "Cedar pergola, outdoor kitchen, concrete patio, and limestone retaining wall in a finished Oklahoma backyard",
   highlights: [
     "Concrete patios, walkways, and driveways",

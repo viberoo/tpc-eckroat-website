@@ -5,7 +5,7 @@
 import { useEffect } from "react";
 
 const siteUrl = "https://tpceckroat.com";
-const defaultImage = "/assets/tpc-eckroat/hero.jpg";
+const defaultImage = "/assets/tpc-eckroat/hero.webp";
 
 type SEOProps = {
   title: string;

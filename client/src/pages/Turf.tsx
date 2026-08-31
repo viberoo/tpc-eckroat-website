@@ -14,7 +14,7 @@ const data: ServicePageData = {
   headline: "Practice-ready turf, shaped for real backyards.",
   intro:
     "From a clean, low-maintenance lawn to a multi-hole backyard golf layout, TPC Eckroat builds turf spaces around the property, the shot, and the way you want to use the yard.",
-  image: "/assets/tpc-eckroat/turf.jpg",
+  image: "/assets/tpc-eckroat/turf.webp",
   imageAlt: "Custom residential backyard putting green with sculpted artificial turf and limestone edging",
   highlights: [
     "Custom putting surfaces and contours",
