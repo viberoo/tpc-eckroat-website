@@ -289,6 +289,10 @@
     opacity: 0.94;
   }
 
+  .home-hero-video {
+    opacity: 0.95;
+  }
+
   .service-page.material-turf .service-hero {
     background-color: #e4eadf;
   }
@@ -436,6 +440,10 @@
   }
 
   .service-hero-video {
+    display: none;
+  }
+
+  .home-hero-video {
     display: none;
   }
 }

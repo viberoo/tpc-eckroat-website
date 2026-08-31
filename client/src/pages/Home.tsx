@@ -6,7 +6,8 @@ import SEO from "@/components/SEO";
 import { ArrowRight, Flag, Hammer, Phone, Waves } from "lucide-react";
 import { Link } from "wouter";
 
-const heroImage = "/assets/tpc-eckroat/hero-bright.webp";
+const heroImage = "/assets/tpc-eckroat/pools-hero.webp";
+const heroVideo = "/assets/tpc-eckroat/pool-water-matched.mp4";
 
 const services = [
   {
@@ -76,8 +77,19 @@ export default function Home() {
             <img
               src={heroImage}
               alt="Coordinated Oklahoma backyard with a custom pool, putting green, pergola, concrete deck, and retaining walls"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="home-hero-still absolute inset-0 h-full w-full object-cover"
             />
+            <video
+              className="home-hero-video absolute inset-0 h-full w-full object-cover"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="metadata"
+              aria-hidden="true"
+            >
+              <source src={heroVideo} type="video/mp4" />
+            </video>
             <div className="absolute inset-0 bg-gradient-to-r from-[#102b23] via-[#102b23]/15 to-transparent lg:from-[#102b23] lg:via-transparent" />
             <div className="absolute bottom-0 left-0 grid w-full grid-cols-3 border-t border-white/20 bg-[#102b23]/86 backdrop-blur-md lg:left-16 lg:w-auto">
               <div className="px-4 py-4 sm:px-6">
