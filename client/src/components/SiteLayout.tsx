@@ -6,7 +6,7 @@ import { ArrowUpRight, Mail, MapPin, Menu, Phone, X } from "lucide-react";
 import { type ReactNode, useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
 
-const logo = "/manus-storage/tpc-eckroat-logo-redesign_bc9f28c9.svg";
+const logo = "/assets/tpc-eckroat/logo.svg";
 
 const navigation = [
   { href: "/turf", label: "Turf" },

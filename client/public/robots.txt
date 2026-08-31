@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.tpceckroat.com/sitemap.xml
+Sitemap: https://tpceckroat.com/sitemap.xml

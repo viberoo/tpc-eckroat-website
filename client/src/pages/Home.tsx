@@ -6,7 +6,7 @@ import SEO from "@/components/SEO";
 import { ArrowRight, Flag, Hammer, Phone, Waves } from "lucide-react";
 import { Link } from "wouter";
 
-const heroImage = "/manus-storage/tpc-eckroat-hero_feb81cdb.jpg";
+const heroImage = "/assets/tpc-eckroat/hero.jpg";
 
 const services = [
   {

@@ -4,8 +4,8 @@
  */
 import { useEffect } from "react";
 
-const siteUrl = "https://www.tpceckroat.com";
-const defaultImage = "/manus-storage/tpc-eckroat-hero_feb81cdb.jpg";
+const siteUrl = "https://tpceckroat.com";
+const defaultImage = "/assets/tpc-eckroat/hero.jpg";
 
 type SEOProps = {
   title: string;
@@ -59,8 +59,8 @@ export default function SEO({ title, description, path, image = defaultImage }: 
       "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
       name: "TPC Eckroat",
       url: siteUrl,
-      image: `${siteUrl}/manus-storage/tpc-eckroat-logo-redesign_bc9f28c9.svg`,
-      logo: `${siteUrl}/manus-storage/tpc-eckroat-logo-redesign_bc9f28c9.svg`,
+      image: `${siteUrl}/assets/tpc-eckroat/logo.svg`,
+      logo: `${siteUrl}/assets/tpc-eckroat/logo.svg`,
       email: "info@tpceckroat.com",
       telephone: "+1-405-509-1988",
       address: {
