@@ -6,7 +6,7 @@ import { ArrowUpRight, Mail, MapPin, Menu, Phone, X } from "lucide-react";
 import { type ReactNode, useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
 
-const logo = "/assets/tpc-eckroat/logo.svg";
+const logo = "/assets/tpc-eckroat/logo.webp";
 
 const navigation = [
   { href: "/", label: "Home" },
@@ -56,13 +56,13 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
         </div>
       </div>
 
-      <header className="sticky top-0 z-50 border-b border-[#d8d2c5] bg-[#f7f4ec]/95 backdrop-blur-xl">
+      <header className="sticky top-0 z-50 border-b border-white/15 bg-[#174d3a]/[0.98] text-white backdrop-blur-xl">
         <div className="container flex h-[5.25rem] items-center justify-between gap-5 lg:h-24">
           <Link href="/" className="shrink-0" aria-label="TPC Eckroat home">
             <img
               src={logo}
               alt="TPC Eckroat — Turf, Pools, Construction"
-              className="brand-logo-light h-[64px] w-auto object-contain sm:h-[72px] lg:h-[86px]"
+              className="h-[64px] w-auto object-contain sm:h-[72px] lg:h-[86px]"
             />
           </Link>
 
@@ -87,7 +87,7 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
 
           <button
             type="button"
-            className="flex h-12 w-12 items-center justify-center border border-[#174d3a] text-[#174d3a] lg:hidden"
+            className="flex h-12 w-12 items-center justify-center border border-white/60 text-white lg:hidden"
             onClick={() => setMenuOpen((open) => !open)}
             aria-expanded={menuOpen}
             aria-controls="mobile-navigation"
