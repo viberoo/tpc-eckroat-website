@@ -259,20 +259,6 @@
     @apply grid items-center gap-5 border-b border-[#bdb6a8] py-7 last:border-b-0 md:grid-cols-[3rem_1fr_1.35fr_auto] md:gap-8;
   }
 
-  .pool-line {
-    position: absolute;
-    right: -2rem;
-    top: 8.5rem;
-    width: 15rem;
-    height: 7rem;
-    border: 1.5rem solid #1976ae;
-    border-left-color: transparent;
-    border-top-color: transparent;
-    border-radius: 50%;
-    transform: rotate(-12deg);
-    opacity: 0.85;
-  }
-
   .service-hero {
     @apply bg-[#e9e4d9] py-0 lg:py-4;
   }

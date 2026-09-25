@@ -157,7 +157,6 @@ export default function Home() {
       <section className="bg-white py-20 lg:py-28">
         <div className="container grid gap-14 lg:grid-cols-[0.88fr_1.12fr] lg:items-center">
           <div className="relative min-h-[30rem] bg-[#174d3a] p-8 text-white sm:p-10 lg:min-h-[35rem]">
-            <div className="pool-line" aria-hidden="true" />
             <p className="eyebrow text-[#f2bd3b]">Built from experience</p>
             <p className="mt-6 font-display text-5xl font-semibold uppercase leading-[0.96] sm:text-6xl">
               Construction first.
