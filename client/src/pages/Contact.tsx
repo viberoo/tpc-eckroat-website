@@ -48,7 +48,7 @@ export default function Contact() {
               <ArrowRight className="ml-auto transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </a>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=4268+N+Boulevard+Ste+132+Edmond+OK+73025"
+              href="https://www.google.com/maps/search/?api=1&query=4268+N+Boulevard+St+Ste+132+Edmond+OK+73025"
               target="_blank"
               rel="noreferrer"
               className="contact-method group items-start border-b"
@@ -56,7 +56,7 @@ export default function Contact() {
               <span className="contact-icon"><MapPin size={20} aria-hidden="true" /></span>
               <span>
                 <span className="contact-label">Office</span>
-                <span className="contact-value">4268 N Boulevard, Ste 132<br />Edmond, OK 73025</span>
+                <span className="contact-value">4268 N Boulevard St, Ste 132<br />Edmond, OK 73025</span>
               </span>
               <ArrowRight className="ml-auto mt-3 transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </a>
