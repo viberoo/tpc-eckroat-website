@@ -71,7 +71,7 @@ export default function SEO({ title, description, path, keywords, image = defaul
       telephone: "+1-405-509-1988",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "4268 N Boulevard, Suite 132",
+        streetAddress: "4268 N Boulevard, Ste 132",
         addressLocality: "Edmond",
         addressRegion: "OK",
         postalCode: "73034",
