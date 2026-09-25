@@ -163,12 +163,12 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
               </a>
               <a
                 className="footer-contact items-start"
-                href="https://www.google.com/maps/search/?api=1&query=4268+N+Boulevard+Ste+132+Edmond+OK+73034"
+                href="https://www.google.com/maps/search/?api=1&query=4268+N+Boulevard+Ste+132+Edmond+OK+73025"
                 target="_blank"
                 rel="noreferrer"
               >
                 <MapPin size={16} className="mt-0.5 shrink-0" aria-hidden="true" />
-                <span>4268 N Boulevard, Ste 132<br />Edmond, OK 73034</span>
+                <span>4268 N Boulevard, Ste 132<br />Edmond, OK 73025</span>
               </a>
             </div>
           </div>

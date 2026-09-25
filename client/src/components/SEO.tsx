@@ -74,7 +74,7 @@ export default function SEO({ title, description, path, keywords, image = defaul
         streetAddress: "4268 N Boulevard, Ste 132",
         addressLocality: "Edmond",
         addressRegion: "OK",
-        postalCode: "73034",
+        postalCode: "73025",
         addressCountry: "US",
       },
       areaServed: [
