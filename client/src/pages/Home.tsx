@@ -43,8 +43,9 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="TPC Eckroat | Turf, Custom Pools & Outdoor Construction in Edmond, OK"
-        description="TPC Eckroat builds artificial turf, putting greens, custom pools, concrete, pergolas, retaining walls, pool houses, and complete outdoor environments across Edmond and the Oklahoma City metro."
+        title="TPC Eckroat | Turf, Pools & Construction"
+        description="TPC Eckroat builds artificial turf, custom pools, and outdoor construction projects for Edmond, Oklahoma City, Stillwater, and surrounding areas."
+        keywords="artificial turf Edmond, custom pools Edmond, pool construction Oklahoma, outdoor construction Oklahoma City, concrete construction Oklahoma, backyard putting greens Oklahoma"
         path="/"
       />
 

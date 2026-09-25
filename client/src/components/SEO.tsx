@@ -11,6 +11,7 @@ type SEOProps = {
   title: string;
   description: string;
   path: string;
+  keywords?: string;
   image?: string;
 };
 
@@ -24,13 +25,18 @@ function setMeta(selector: string, attribute: "name" | "property", value: string
   element.setAttribute("content", content);
 }
 
-export default function SEO({ title, description, path, image = defaultImage }: SEOProps) {
+export default function SEO({ title, description, path, keywords, image = defaultImage }: SEOProps) {
   useEffect(() => {
     const canonicalUrl = `${siteUrl}${path === "/" ? "" : path}`;
     const shareImage = image.startsWith("http") ? image : `${siteUrl}${image}`;
 
     document.title = title;
     setMeta('meta[name="description"]', "name", "description", description);
+    if (keywords) {
+      setMeta('meta[name="keywords"]', "name", "keywords", keywords);
+    } else {
+      document.head.querySelector('meta[name="keywords"]')?.remove();
+    }
     setMeta('meta[name="robots"]', "name", "robots", "index, follow, max-image-preview:large");
     setMeta('meta[property="og:title"]', "property", "og:title", title);
     setMeta('meta[property="og:description"]', "property", "og:description", description);
@@ -90,7 +96,7 @@ export default function SEO({ title, description, path, image = defaultImage }: 
       ],
     });
     document.head.appendChild(schema);
-  }, [description, image, path, title]);
+  }, [description, image, keywords, path, title]);
 
   return null;
 }
