@@ -17,6 +17,14 @@ const navigation = [
   { href: "/contact", label: "Contact" },
 ];
 
+function FacebookIcon({ size = 16 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.6 1.7-1.6h1.8V3.8c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9V10H8.4v3h2.5v8h2.6Z" />
+    </svg>
+  );
+}
+
 export default function SiteLayout({ children }: { children: ReactNode }) {
   const [location] = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -51,6 +59,15 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
             </a>
             <a className="utility-link" href="tel:+14055091988">
               <Phone size={13} aria-hidden="true" /> (405) 509-1988
+            </a>
+            <a
+              className="utility-link"
+              href="https://www.facebook.com/TPCEckroat"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="TPC Eckroat on Facebook"
+            >
+              <FacebookIcon size={14} /> Facebook
             </a>
           </div>
         </div>
@@ -160,6 +177,15 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
               </a>
               <a className="footer-contact" href="mailto:info@tpceckroat.com">
                 <Mail size={16} aria-hidden="true" /> info@tpceckroat.com
+              </a>
+              <a
+                className="footer-contact"
+                href="https://www.facebook.com/TPCEckroat"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="TPC Eckroat on Facebook"
+              >
+                <FacebookIcon size={16} /> Facebook
               </a>
               <a
                 className="footer-contact items-start"
