@@ -15,6 +15,7 @@ const data: ServicePageData = {
   intro:
     "TPC Eckroat brings pool design, site work, decking, retaining, and surrounding outdoor spaces into one coordinated plan—so the finished pool belongs in the yard from every angle.",
   image: "/assets/tpc-eckroat/pools-hero.webp",
+  mobileImage: "/assets/tpc-eckroat/pools-hero-mobile.webp",
   video: "/assets/tpc-eckroat/pool-water-matched.mp4",
   imageAlt: "Modern custom swimming pool with concrete decking, limestone coping, and integrated outdoor living space",
   highlights: [

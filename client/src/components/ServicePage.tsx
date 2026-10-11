@@ -4,6 +4,7 @@
  */
 import SEO from "@/components/SEO";
 import { ArrowRight, Check, Phone } from "lucide-react";
+import { useEffect, useState } from "react";
 import { Link } from "wouter";
 
 export type ServicePageData = {
@@ -15,6 +16,7 @@ export type ServicePageData = {
   headline: string;
   intro: string;
   image: string;
+  mobileImage?: string;
   video?: string;
   imageAlt: string;
   highlights: string[];
@@ -27,6 +29,16 @@ export type ServicePageData = {
 };
 
 export default function ServicePage({ data }: { data: ServicePageData }) {
+  const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const updateVideoVisibility = () => setShowVideo(mediaQuery.matches);
+    updateVideoVisibility();
+    mediaQuery.addEventListener("change", updateVideoVisibility);
+    return () => mediaQuery.removeEventListener("change", updateVideoVisibility);
+  }, []);
+
   return (
     <div className={`service-page material-${data.material}`}>
       <SEO
@@ -54,19 +66,26 @@ export default function ServicePage({ data }: { data: ServicePageData }) {
             </div>
           </div>
           <div className="relative min-h-[23rem] overflow-hidden lg:my-12 lg:min-h-[34rem]">
-            <img
-              src={data.image}
-              alt={data.imageAlt}
-              className="service-hero-still absolute inset-0 h-full w-full object-cover"
-            />
-            {data.video && (
+            <picture>
+              {data.mobileImage && <source media="(max-width: 767px)" srcSet={data.mobileImage} />}
+              <img
+                src={data.image}
+                alt={data.imageAlt}
+                className="service-hero-still absolute inset-0 h-full w-full object-cover"
+                width={1600}
+                height={data.material === "pools" ? 900 : 1200}
+                fetchPriority="high"
+                decoding="async"
+              />
+            </picture>
+            {data.video && showVideo && (
               <video
                 className="service-hero-video absolute inset-0 h-full w-full object-cover"
                 autoPlay
                 loop
                 muted
                 playsInline
-                preload="metadata"
+                preload="none"
                 aria-hidden="true"
               >
                 <source src={data.video} type="video/mp4" />

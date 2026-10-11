@@ -80,6 +80,9 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
               src={logo}
               alt="TPC Eckroat — Turf, Pools, Construction"
               className="h-[64px] w-auto object-contain sm:h-[72px] lg:h-[86px]"
+              width={2048}
+              height={1289}
+              decoding="async"
             />
           </Link>
 
@@ -153,6 +156,10 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
               src={logo}
               alt="TPC Eckroat"
               className="mb-6 w-[240px] max-w-full"
+              width={2048}
+              height={1289}
+              loading="lazy"
+              decoding="async"
             />
             <p className="max-w-md text-[0.95rem] leading-7 text-white/70">
               Coordinated turf, pools, concrete, structures, and complete outdoor environments for

@@ -264,11 +264,20 @@
   }
 
   .service-hero-video {
+    display: none;
     opacity: 0.94;
   }
 
   .home-hero-video {
+    display: none;
     opacity: 0.95;
+  }
+
+  @media (min-width: 768px) {
+    .service-hero-video,
+    .home-hero-video {
+      display: block;
+    }
   }
 
   .service-page.material-turf .service-hero {
