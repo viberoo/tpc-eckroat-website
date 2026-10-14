@@ -180,7 +180,7 @@ export default function ServicePage({ data }: { data: ServicePageData }) {
             </h2>
           </div>
           <Link href="/contact" className="button-gold shrink-0">
-            Contact TPC Eckroat <ArrowRight size={18} aria-hidden="true" />
+            Contact Steve <ArrowRight size={18} aria-hidden="true" />
           </Link>
         </div>
       </section>

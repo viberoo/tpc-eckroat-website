@@ -81,7 +81,7 @@ export default function Home() {
                 Plan your project <ArrowRight size={18} aria-hidden="true" />
               </Link>
               <a href="tel:+14055091988" className="button-ghost-light">
-                <Phone size={17} aria-hidden="true" /> Call (405) 509-1988
+                <Phone size={17} aria-hidden="true" /> Call Steve
               </a>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function Home() {
               2017 to each outdoor project.
             </p>
             <Link href="/about" className="mt-9 inline-flex items-center gap-2 font-bold text-[#f2bd3b] hover:underline">
-              Meet TPC Eckroat <ArrowRight size={17} aria-hidden="true" />
+              Meet Steve <ArrowRight size={17} aria-hidden="true" />
             </Link>
             <div className="absolute bottom-0 right-0 h-28 w-28 bg-[#1976ae] sm:h-36 sm:w-36">
               <div className="absolute left-0 top-0 h-0 w-0 border-r-[2.5rem] border-t-[2.5rem] border-r-transparent border-t-[#f2bd3b]" />

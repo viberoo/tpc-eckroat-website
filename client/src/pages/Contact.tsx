@@ -16,7 +16,7 @@ export default function Contact() {
 
       <section className="bg-[#102b23] py-16 text-white lg:py-24">
         <div className="container">
-          <p className="eyebrow text-[#f2bd3b]">Contact TPC Eckroat</p>
+          <p className="eyebrow text-[#f2bd3b]">Contact Steve</p>
           <h1 className="mt-5 max-w-5xl font-display text-4xl font-semibold uppercase leading-[0.98] tracking-[-0.025em] text-white sm:text-5xl lg:text-6xl">
             Call, email, or stop by the Edmond office to start the conversation. TPC Eckroat will help
             identify the right next step for the property.
@@ -28,7 +28,7 @@ export default function Contact() {
         <div className="container">
           <p className="eyebrow">Direct contact</p>
           <h2 className="mt-4 max-w-3xl font-display text-5xl font-semibold uppercase leading-[0.92] tracking-[-0.03em] text-[#102b23] sm:text-6xl">
-            Reach TPC Eckroat directly.
+            Reach Steve directly.
           </h2>
           <div className="mt-10 grid border-t border-[#bdb6a8] sm:grid-cols-3">
             <a href="tel:+14055091988" className="contact-method group border-b sm:border-r">

@@ -141,7 +141,7 @@ export default function SiteLayout({ children }: { children: ReactNode }) {
               href="tel:+14055091988"
               className="mt-auto flex min-h-14 items-center justify-center gap-3 bg-[#f2bd3b] px-5 font-extrabold uppercase tracking-[0.08em] text-[#102b23]"
             >
-              <Phone size={19} aria-hidden="true" /> Call (405) 509-1988
+              <Phone size={19} aria-hidden="true" /> Call Steve
             </a>
           </nav>
         </div>
